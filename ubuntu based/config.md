@@ -26,4 +26,20 @@ example:
 Exec=chromium-browser %U --proxy-server='192.999.99.9:9999'
 ``` 
 
+### add environment variables
+
+sudo nano ./bashrc
+
+export VARIABLE="valor"
+
+
+### mount folder machine
+on Virtual box
+name: folder_machine
+automount yes
+permanent yes
+
+on Xubuntu
+
+sudo mount -t vboxsf folder_machine dir_xubuntu_folder
 
