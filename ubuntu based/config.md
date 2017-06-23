@@ -35,8 +35,11 @@ export VARIABLE="valor"
 
 ### mount folder machine
 on Virtual box
+
 name: folder_machine
+
 automount yes
+
 permanent yes
 
 on Xubuntu
