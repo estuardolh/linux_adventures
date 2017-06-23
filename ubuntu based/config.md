@@ -32,15 +32,19 @@ sudo nano ./bashrc
 
 export VARIABLE="valor"
 
+examples: 
+export JAVA_HOME="/usr/lib/java/jdk1.8.0_131/" 
+export JDK_HOME="$JAVA_HOME" 
+export JRE_HOME="/usr/lib/java/jdk1.8.0_131/jre/" 
+export PATH="/usr/lib/java/jdk1.8.0_131/bin/:$PATH" 
+
 
 ### mount folder machine
 on Virtual box
 
-name: folder_machine
-
-automount yes
-
-permanent yes
+name: folder_machine 
+automount: yes 
+permanent: yes 
 
 on Xubuntu
 
