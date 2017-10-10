@@ -1,0 +1,21 @@
+Se agrega carpeta jdk1.8.0_131 en /usr/java/
+
+jue jun 22 14:39:51 CST 2017  
+export JAVA_HOME="/usr/java/jdk1.8.0_131/"
+export JDK_HOME="$JAVA_HOME"
+export JRE_HOME="/usr/java/jdk1.8.0_131/jre/"
+# export CLASSPATH=.:$JAVA_HOME/lib/:$JAVA_HOME/jre/lib/
+export PATH="/usr/java/jdk1.8.0_131/bin:$PATH"
+
+jue jun 22 14:47:17 CST 2017
+sudo apt install rxvt
+
+mar oct 10 10:06:18 CST 2017
+sudo apt-get install tree
+
+sudo apt-get install sshpass
+
+sudo apt-get install tree
+
+sudo apt-get install gksu
+
