@@ -51,6 +51,8 @@ on Xubuntu
 sudo mount -t vboxsf folder_machine dir_xubuntu_folder
 
 ### configure git username
+```  
   git config --global user.email "you@example.com"
   git config --global user.name "Your Name"
 
+```
