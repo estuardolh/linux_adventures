@@ -19,3 +19,8 @@ sudo apt-get install tree
 
 sudo apt-get install gksu
 
+sudo apt-get install curl
+
+sudo apt install vim
+
+sudo apt install rhino
