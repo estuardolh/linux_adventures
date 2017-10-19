@@ -24,3 +24,6 @@ sudo apt-get install curl
 sudo apt install vim
 
 sudo apt install rhino
+
+sudo apt-get install nodejs
+sudo apt-get install npm
