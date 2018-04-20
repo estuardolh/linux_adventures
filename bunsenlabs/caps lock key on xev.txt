@@ -1,0 +1,16 @@
+
+# xev -event keyboard
+
+KeyRelease event, serial 28, synthetic NO, window 0x3e00001,
+    root 0x17b, subw 0x0, time 12447726, (-280,-32), root:(280,553),
+    state 0x10, keycode 23 (keysym 0xff09, Tab), same_screen YES,
+    XLookupString gives 1 bytes: (09) "	"
+    XFilterEvent returns: False
+
+
+--- despues de instalado ibus, mensaje mostrado:
+
+IBus has been started! If you cannot use IBus, add the following lines to your $HOME/.bashrc; then relog into your desktop.
+  export GTK_IM_MODULE=ibus
+  export XMODIFIERS=@im=ibus
+  export QT_IM_MODULE=ibus

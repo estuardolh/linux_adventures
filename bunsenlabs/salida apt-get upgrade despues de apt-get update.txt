@@ -1,0 +1,43 @@
+ing package lists... Done
+Building dependency tree       
+Reading state information... Done
+Calculating upgrade... Done
+The following packages have been kept back:
+  firefox-esr linux-image-686-pae
+The following packages will be upgraded:
+  apt-xapian-index base-files bunsen-configs bunsen-os-release
+  bunsen-python-apt-template ca-certificates cpp-4.9 curl debconf debconf-i18n
+  debian-archive-keyring evince evince-common fonts-opensymbol galternatives
+  gcc-4.9-base ghostscript gir1.2-gdkpixbuf-2.0 gnupg gpgv gtk2-engines-pixbuf
+  hexchat hexchat-common initramfs-tools intel-microcode isc-dhcp-client
+  isc-dhcp-common libavcodec56 libavformat56 libavresample2 libavutil54
+  libbluetooth3 libc-bin libc6 libcups2 libcupsimage2 libcurl3 libcurl3-gnutls
+  libdb5.3 libdns-export100 libdvdnav4 libevdocument3-4 libevview3-3 libexpat1
+  libffi6 libfreerdp-cache1.1 libfreerdp-client1.1 libfreerdp-codec1.1
+  libfreerdp-common1.1.0 libfreerdp-core1.1 libfreerdp-crypto1.1 libfreerdp-gdi1.1
+  libfreerdp-locale1.1 libfreerdp-primitives1.1 libfreerdp-rail1.1
+  libfreerdp-utils1.1 libgcc1 libgcrypt20 libgd3 libgdk-pixbuf2.0-0
+  libgdk-pixbuf2.0-common libgfortran3 libgnutls-deb0-28 libgnutls-openssl27
+  libgomp1 libgraphite2-3 libgs9 libgs9-common libgssapi-krb5-2 libgtk2.0-0
+  libgtk2.0-common libgudev-1.0-0 libicu52 libirs-export91 libisc-export95
+  libisccfg-export90 libjbig2dec0 libk5crypto3 libkrb5-3 libkrb5support0
+  libldap-2.4-2 libmspack0 libmwaw-0.3-3 libncurses5 libncursesw5 libnss3 libobjc4
+  libpam-modules libpam-modules-bin libpam-systemd libpam0g libperl5.20
+  libpoppler-glib8 libpoppler46 libquadmath0 libreoffice-base-core
+  libreoffice-common libreoffice-core libreoffice-gtk libreoffice-style-galaxy
+  libreoffice-writer librtmp1 libsmbclient libsoup-gnome2.4-1 libsoup2.4-1
+  libssl1.0.0 libstdc++6 libswscale3 libsystemd0 libtasn1-6 libtiff5 libtinfo5
+  libudev1 libvlc5 libvlccore8 libvorbis0a libvorbisenc2 libvorbisfile3 libvpx1
+  libwbclient0 libwinpr-crt0.1 libwinpr-crypto0.1 libwinpr-dsparse0.1
+  libwinpr-environment0.1 libwinpr-file0.1 libwinpr-handle0.1 libwinpr-heap0.1
+  libwinpr-input0.1 libwinpr-interlocked0.1 libwinpr-library0.1 libwinpr-path0.1
+  libwinpr-pool0.1 libwinpr-registry0.1 libwinpr-rpc0.1 libwinpr-sspi0.1
+  libwinpr-synch0.1 libwinpr-sysinfo0.1 libwinpr-thread0.1 libwinpr-utils0.1
+  libwpd-0.10-10 libx11-6 libx11-data libx11-xcb1 libxcursor1 libxfixes3 libxfont1
+  libxi6 libxml2 libxrandr2 libxslt1.1 libxtst6 libxv1 libxvmc1
+  linux-image-3.16.0-4-686-pae locales login multiarch-support ncurses-base
+  ncurses-bin openssl p7zip-full passwd perl perl-base perl-modules rsync
+  samba-libs sensible-utils sudo systemd systemd-sysv transmission-common
+  transmission-gtk tzdata udev uno-libs3 unrar unzip ure vim-common vim-tiny vlc
+  vlc-data vlc-nox vlc-plugin-notify wget wpasupplicant xserver-common
+xserver-xorg-core

@@ -1,0 +1,40 @@
+sudo apt install openssh-client
+sudo apt install openssh-server
+-- descarga e instalacion de forti
+sudo apt-get install ppp
+-- estuardolh@usblh:/opt/forticlient-sslvpn$ bash ./fortisslvpn.sh
+--  ejecutar: /opt/forticlient-sslvpn/fortisslvpn.sh
+sudo apt-get install sshpass
+sudo apt-get install xterm
+
+sudo apt-get update
+sudo apt-get upgrade
+
+/* para instalar virtual box guess aditions */
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install dkms build-essential linux-headers-$(uname -r) module-assistant
+sudo m-a prepare
+
+/*para keyboard layout */
+sudo apt-get install ibus
+
+/*configurar tecla caps lock*/
+-- xmodmap -e 'keycode 66 = Caps_Lock'
+-- o agregando el archivo .Xmodmap, con contenido: keycode 66 = Caps_Lock
+
+/*copiar un disco a iso*/
+sudo dd if=/dev/sdx of=/path/to/new.iso
+
+/*copiar iso a disco*/
+sudo dd if=/path/to/iso of=/dev/sdx
+
+/*
+para quitar autolock
+
+archivo /etc/xdg/autostart/light-locker.desktop
+
+agregar linea: Hidden=true
+
+y reiniciar
+*/
