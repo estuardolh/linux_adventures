@@ -28,14 +28,17 @@ Exec=chromium-browser %U --proxy-server='192.999.99.9:9999'
 
 ### add environment variables
 
-sudo nano ./bashrc
+sudo nano .bashrc
 
 export VARIABLE="valor"
 
 examples: 
-export JAVA_HOME="/usr/lib/java/jdk1.8.0_131/" 
-export JDK_HOME="$JAVA_HOME" 
-export JRE_HOME="/usr/lib/java/jdk1.8.0_131/jre/" 
+export JAVA_HOME="/usr/lib/java/jdk1.8.0_131/"
+
+export JDK_HOME="$JAVA_HOME"
+
+export JRE_HOME="/usr/lib/java/jdk1.8.0_131/jre/"
+
 export PATH="/usr/lib/java/jdk1.8.0_131/bin/:$PATH" 
 
 
