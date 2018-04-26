@@ -38,3 +38,12 @@ agregar linea: Hidden=true
 
 y reiniciar
 */
+
+sudo apt-get install cups
+# ir a http://localhost:631/
+
+# editar archivo /etc/cups/cups-files.conf
+# agregar en una linea el usuario.  Asi:
+#   SystemGroup lpadmin estuardolh
+# reiniciar servicios
+#   sudo systemctl restart cups
