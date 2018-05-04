@@ -47,3 +47,5 @@ sudo apt-get install cups
 #   SystemGroup lpadmin estuardolh
 # reiniciar servicios
 #   sudo systemctl restart cups
+
+sudo apt-get install preload
