@@ -49,3 +49,23 @@ sudo apt-get install cups
 #   sudo systemctl restart cups
 
 sudo apt-get install preload
+
+
+-- connecting from python to oracle
+sudo apt-get install python-dev   # for python2.x installs
+sudo apt-get install python3-dev  # for python3.x installs
+
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+sudo python get-pip.py
+
+sudo apt-get install libaio1
+
+sudo mkdir /opt/oracle/
+cd /opt/oracle/
+-- descargar cliente: http://www.oracle.com/technetwork/topics/linuxsoft-082809.html
+sudo unzip instantclient-basiclite-linux-12.2.0.1.0.zip
+
+sudo sh -c "echo /opt/oracle/instantclient_12_2 > /etc/ld.so.conf.d/oracle-instantclient.conf"
+
+export LD_LIBRARY_PATH=/opt/oracle/instantclient_12_2:$LD_LIBRARY_PATH
+
