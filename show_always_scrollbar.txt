@@ -1,0 +1,14 @@
+# src: http://xahlee.info/linux/linux_disable_ubuntu_overlay_scrollbar.html
+
+execute:
+
+nano ~/.config/gtk-3.0/gtk.css
+
+insert:
+
+.scrollbar {
+  -GtkScrollbar-has-backward-stepper: true;
+  -GtkScrollbar-has-forward-stepper: true;
+  -GtkRange-slider-width: 20;
+  -GtkRange-stepper-size: 20;
+}
