@@ -1,0 +1,8 @@
+# first:
+xhost +local:
+
+# execute nautilus
+sudo nautilus
+
+# undo changes
+xhost -local:
